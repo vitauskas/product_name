@@ -1,0 +1,216 @@
+body {
+	background: #fff;
+	width: 100%;
+	min-height: 100%;
+	max-width: 1200px;
+	min-width: 430px;
+	margin: 0 auto 0;
+	padding: 0 10px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex: auto;
+	-moz-flex: auto;
+	-ms-flex: auto;
+	-o-flex: auto;
+	flex: auto;
+}
+
+.rowfirst {
+	background: #445162;
+	padding: 10px;
+}
+
+.rowfirst__wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: flex-center;
+	align-items: flex-center;
+	justify-content: space-around;
+}
+
+.descrleft {
+	margin-top: 20px;
+}
+
+.descrright {
+	margin-top: 20px;
+}
+
+.descrleft__feature-item:before {
+	content: '\2714';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.descrright__feature-item:before {
+	content: '\2714';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.descrleft__name {
+	text-align: right;
+	font-size: 30px;
+	color: #fff;
+}
+
+.descrright__name {
+	text-align: right;
+	font-size: 30px;
+	color: #fff;
+}
+
+.descrleft__feature {
+	list-style: none;
+	color: #fff;
+	margin: 30px 10px;
+}
+
+.descrright__feature {
+	list-style: none;
+	color: #fff;
+	margin: 30px 0 10px;
+}
+
+.image__one {
+	width: 250px;
+	height: 150px;
+	margin: 30px;
+	border-radius: 7px;
+	background: #fff;
+	background-image: url(http://union-press.ru/sites/default/files/styles/image_block/public/image/kosmos2.jpg?itok=UnftW94C);
+}
+
+.rowsecond {
+	background: #00FFA9;
+	padding: 10px;
+}
+
+.rowsecond__wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: flex-center;
+	align-items: flex-center;
+	justify-content: space-around;
+}
+
+.descr {
+	margin-top: 20px;
+}
+
+.descr__name {
+	text-align: right;
+	font-size: 30px;
+	color: #445162;
+}
+
+.descr__feature {
+	list-style: none;
+	color: #445162;
+	margin: 30px 10px;
+}
+
+.descr__feature-item:before {
+	content: '\2714';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.image__twoo {
+  width: 250px;
+  height: 150px;
+  margin: 30px;
+  border-radius: 7px;
+  background: #fff;
+  background-image: url(https://i1.wp.com/www.epochtimes.ru/eet-content/uploads/2015/11/kelly-space.jpg?resize=250%2C150);
+}
+
+.image__three {
+  width: 250px;
+  height: 150px;
+  margin: 30px;
+  border-radius: 7px;
+  background: #fff;
+  background-image: url(https://i0.wp.com/www.epochtimes.ru/eet-content/uploads/2015/11/mars-512489_1280.jpg?resize=250%2C150);
+}
+
+.rowthird {
+	background: #445162;
+	padding: 10px;
+	text-align: center;
+}
+
+.rowthird__name {
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+
+.content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: flex-center;
+	align-items: flex-start;
+	justify-content: space-around;
+	margin: 0 160px;
+}
+
+input {
+  width: 300px;
+  height: 5px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+textarea {
+  width: 300px;
+  height: 80px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+button {
+  width: 100px;
+  height: 30px;  
+  border-radius: 7px;  
+}
+
+.social__name {
+  text-align: left;
+  list-style: none;
+  color: #fff;  
+}
+
+.social__logo {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;  
+}
+
+.social__logo-img {
+  padding-right: 5px;
+}	
+
+
